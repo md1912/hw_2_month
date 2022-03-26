@@ -1,7 +1,9 @@
 from random import randint
 from balans import many
+
 slot = randint(1,30)
 bank = many
+
 def game():
     global bank
     try:
